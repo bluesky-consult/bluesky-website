@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bluesky ESG Solutions Ltd.</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background-color: #f0f8ff;
+      color: #333;
+    }
+    header {
+      background: #1e90ff;
+      color: white;
+      padding: 1rem 0;
+      text-align: center;
+    }
+    header img {
+      max-width: 200px;
+      height: auto;
+      margin-bottom: 1rem;
+    }
+    nav {
+      background: #87ceeb;
+      display: flex;
+      justify-content: center;
+      padding: 0.5rem 0;
+    }
+    nav a {
+      color: white;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 2rem;
+    }
+    h2 {
+      color: #2e8b57;
+    }
+    .services ul {
+      list-style-type: square;
+      margin-left: 2rem;
+    }
+    footer {
+      background: #2e8b57;
+      color: white;
+      text-align: center;
+      padding: 1rem 0;
+    }
+    #blog article {
+      background: #ffffff;
+      border: 1px solid #ccc;
+      padding: 1rem;
+      margin-bottom: 1rem;
+    }
+    #blog a {
+      color: #1e90ff;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Bluesky ESG Solutions Ltd. Logo" />
+    <h1>Bluesky ESG Solutions Ltd.</h1>
+    <p><em>Shaping Sustainable, Compliant Futures</em></p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#blog">Blog</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p><strong>Mission:</strong> To deliver high-quality, standards-based ESG advisory and capacity-building services that empower organizations to operate responsibly, sustainably, and in line with global best practices.</p>
+    <p><strong>Vision:</strong> To be Southern Africa’s most trusted ESG compliance and sustainability partner, driving lasting impact for businesses, communities, and the environment.</p>
+    <p><strong>Core Values:</strong></p>
+    <ul>
+      <li>Integrity</li>
+      <li>Sustainability</li>
+      <li>Excellence</li>
+      <li>Accountability</li>
+      <li>Innovation</li>
+    </ul>
+  </section>
+
+  <section id="services" class="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li>ESG Risk Assessments & Audits</li>
+      <li>Environmental & Social Management Systems (ESMS) Development</li>
+      <li>Compliance Readiness & Certification Support (RA, C.A.F.E., ISO, IFC PS, WB ESF, AfDB ISS)</li>
+      <li>Training & Capacity Building</li>
+      <li>Sustainability Reporting (GRI-aligned)</li>
+      <li>Occupational Safety & Health Advisory</li>
+    </ul>
+  </section>
+
+  <section id="training">
+    <h2>ESG Training</h2>
+    <p>Our ESG training programs are designed to build capacity among organizations, producers, and professionals who seek to implement and manage ESG practices effectively. We blend global standards with local context to ensure practical, high-impact learning.</p>
+    <ul>
+      <li>Introduction to ESG Principles</li>
+      <li>Understanding ESG Standards (RA, ISO, IFC PS, WB ESF, AfDB ISS)</li>
+      <li>Developing Environmental & Social Management Systems (ESMS)</li>
+      <li>ESG for SMEs and Exporters</li>
+      <li>ESG Risk Identification & Reporting</li>
+    </ul>
+    <p><strong>Join Us:</strong> Enroll in our virtual and on-site training sessions.</p>
+    
+    <p><button onclick="document.getElementById('trainingForm').style.display='block'" style="background: #1e90ff; color: white; padding: 10px 20px; border: none; border-radius: 5px;">Register for Training</button></p>
+    
+  <form id="trainingForm" action="#" method="POST" style="display:none; margin-top: 2rem; background: #ffffff; padding: 1rem; border: 1px solid #ccc;" style="margin-top: 2rem; background: #ffffff; padding: 1rem; border: 1px solid #ccc;">
+      <h3>Training Registration Form</h3>
+      <label for="name">Full Name:</label><br />
+      <input type="text" id="name" name="name" style="width: 100%; padding: 0.5rem;" required><br /><br />
+
+      <label for="email">Email Address:</label><br />
+      <input type="email" id="email" name="email" style="width: 100%; padding: 0.5rem;" required><br /><br />
+
+      <label for="phone">Phone Number:</label><br />
+      <input type="tel" id="phone" name="phone" style="width: 100%; padding: 0.5rem;" required><br /><br />
+
+      <label for="organization">Organization:</label><br />
+      <input type="text" id="organization" name="organization" style="width: 100%; padding: 0.5rem;"><br /><br />
+
+      <label for="topic">Preferred Training Topic:</label><br />
+      <select id="topic" name="topic" style="width: 100%; padding: 0.5rem;">
+        <option value="esg_intro">Introduction to ESG Principles</option>
+        <option value="standards">Understanding ESG Standards</option>
+        <option value="esms">Developing ESMS</option>
+        <option value="smes">ESG for SMEs and Exporters</option>
+        <option value="reporting">ESG Risk & Reporting</option>
+      </select><br /><br />
+
+      <button type="submit" style="background: #2e8b57; color: white; padding: 10px 20px; border: none; border-radius: 5px;">Submit</button>
+    </form>
+
+    <p style="margin-top: 1rem;"><a href="training_schedule.pdf" download style="background: #1e90ff; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px;">Download Training Schedule</a></p>
+  </section>
+
+  <section id="blog">
+    <h2>Latest Insights</h2>
+    <article>
+      <h3>Building ESG Capacity for Smallholder Farmers</h3>
+      <p>Explore how ESG advisory can empower small-scale producers to access sustainable markets and improve livelihoods.</p>
+      <a href="blog1.html">Read more</a>
+    </article>
+    <article>
+      <h3>5 Key ESG Standards Every Exporter Should Know</h3>
+      <p>Learn the most relevant ESG standards impacting Malawi's agricultural and manufacturing sectors today.</p>
+      <a href="blog2.html">Read more</a>
+    </article>
+    <article>
+      <h3>Why Sustainability Reporting Matters</h3>
+      <p>Understand how GRI-aligned sustainability reporting builds trust with investors, donors, and global partners.</p>
+      <a href="blog3.html">Read more</a>
+    </article>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: <a href="mailto:director@blueskyesg.com">director@blueskyesg.com</a></p>
+    <p>Phone: +265 991 274 189 / +265 882 856 840</p>
+    <p>Location: Blantyre, Malawi</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Bluesky ESG Solutions Ltd. All rights reserved.</p>
+  </footer>
+</body>
+</html>
